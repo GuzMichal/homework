@@ -1,0 +1,138 @@
+body {
+  margin: 0px;
+  font-family: system-ui;
+}
+#navi {
+  position: relative;
+  font-size: 12px;
+  background-color: darksalmon;
+  color: white;
+  padding: 15px 100px 10px 10px;
+}
+#mojaStrona {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  left: 15px;
+}
+#mojaStrona:hover {
+  color: lightgray;
+  cursor: pointer;
+}
+#oNas {
+  color: white;
+  text-decoration: none;
+  padding-right: 10px;
+  position: absolute;
+  right: 160px;
+}
+#oNas:hover {
+  color: lightgray;
+  cursor: pointer;
+}
+#form {
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  right: 100px;
+}
+#form:hover {
+  color: lightgray;
+  cursor: pointer;
+}
+#main {
+  padding: 20px 0px 150px 50px;
+  background-image: url(https://www.incimages.com/uploaded_files/image/1920x1080/getty_548298907_9706479704500126_78156.jpg);
+  background-size: cover;
+}
+h1 {
+  font-size: 42px;
+  color: darksalmon;
+}
+#lesson4 {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+#pageStyle {
+  color: gray;
+  text-align: center;
+}
+#lorem {
+  font-size: 15px;
+  text-align: center;
+}
+.articleBox {
+  font-family: "Times New Roman";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.art1 {
+  margin: 20px 20px 40px 20px;
+  max-width: 300px;
+  background-color: linen;
+  padding: 10px 15px;
+  transition: transform 1s;
+}
+.art1:hover {
+  transform: scale(1.1, 1.1);
+  outline-style: solid;
+  outline-color: darkslategrey;
+  outline-width: 2px;
+}
+.articleTitle {
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0px;
+}
+.articleText {
+  text-align: center;
+  font-size: 10px;
+}
+#footer {
+  position: relative;
+  background-color: darksalmon;
+  display: flex;
+  justify-content: space-between;
+}
+#oNasFooter {
+  max-width: 400px;
+  margin-left: 15px;
+  margin-top: 30px;
+  top: 20px;
+}
+#oNasTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+#oNasText {
+  font-size: 12px;
+}
+img {
+  max-width: 200px;
+  margin-top: 100px;
+}
+#formularz {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 250px;
+}
+.name {
+  font-size: 10px;
+  font-weight: normal;
+  margin: 10px 0px 0px 0px;
+}
+#button {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  padding: 8px 22px;
+  font-size: 8px;
+}
+#button:hover {
+  opacity: 0.5;
+}
